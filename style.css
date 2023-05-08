@@ -1,0 +1,20 @@
+body {
+    font-family: "Anek Bangla", sans-serif;
+}
+
+#Card {
+    display: none;
+}
+
+#Card2 {
+    display: none;
+}
+
+@media (min-width: 636px) {
+    #Card {
+        display: block;
+    }
+    #Card2 {
+        display: block;
+    }
+}
